@@ -14,7 +14,7 @@ A way to properly sell assets on the Roblox platform, in line with the ToS to al
 
 1. Download the RBXM file.
 2. Import it into StarterGui.
-   2a. You may change the name of the *actual* GUI name, but do not change any contents unless you are forking the system and are contributing.
+  2a. You may change the name of the *actual* GUI name, but do not change any contents unless you are forking the system and are contributing.
 3. Test. If any issues arise, contact me via Discord.
 
 ## Contributions
