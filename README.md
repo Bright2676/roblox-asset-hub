@@ -1,3 +1,4 @@
+
 # Roblox Asset Hub
 A way to properly sell assets on the Roblox platform, in line with the ToS to allow legal DevEx and prevents your account from moderation.
 
@@ -15,7 +16,7 @@ A way to properly sell assets on the Roblox platform, in line with the ToS to al
 1. Download the RBXM file.
 2. Import it into StarterGui.
 2a. You may change the name of the *actual* GUI name, but try to not change any contents unless you are forking the system and are contributing.
-3. Test. If any issues arise, contact me via Discord.
+3. Test. If any issues arise, contact me via Discord or in my dedicated [Discord Server](https://discord.gg/cBCHuJHkWf).
 
 ## Contributions
 Contributions are welcome and encouraged! If you'd like to add features
