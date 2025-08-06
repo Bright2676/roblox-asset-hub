@@ -2,7 +2,7 @@
 
 	» Roblox Asset Hub | Functions Module | «
 	
-	Functions Module v0.1.0
+	Functions Module v0.2.0
 	
 	Written by iiBright2676
 	**DO NOT TOUCH UNLESS YOU ARE FORKING.**
