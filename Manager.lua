@@ -1,7 +1,7 @@
 --[[
 
 	» Roblox Asset Hub | Roblox README.md | «
-	Client Version 0.1.0
+	Client Version 0.2.0
 	
 	---
 
@@ -56,7 +56,7 @@ local PurchaseHistory = {}
 -- some functions for QoL
 
 StarterGui:SetCore("ResetButtonCallback", false)
-Character.HumanoidRootPart.Anchored = true
+--Character.HumanoidRootPart.Anchored = true
 
 -- real script
 
