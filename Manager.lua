@@ -1,7 +1,7 @@
 --[[
 
 	» Roblox Asset Hub | Roblox README.md | «
-	Client Version 0.2.0
+	Client Version 0.2.1
 	
 	---
 
@@ -106,6 +106,21 @@ PurchaseButton.MouseButton1Click:Connect(function()
 		end)
 	else
 		MarketplaceService:PromptGamePassPurchase(Player, SelectedObject.Price)
+	end
+end)
+
+ReplicatedStorage.Events.ApplyLoaderSettings.OnClientEvent:Connect(function(Settings)
+	print("Received settings from loader module! Table:")
+	print(Settings)
+
+	if Settings and typeof(Settings) == "table" then
+		local HubName = Settings.HubName or "Unnamed Hub"
+
+		AgreementFrame.Title.Text = "Welcome to " .. HubName .. "'s Asset Hub!"
+		PrePurchaseFrame.Title.Text = "Welcome to " .. HubName .. "'s Asset Hub!"
+		Container.Title.Text = "Welcome to " .. HubName .. "'s Asset Hub!"
+	else
+		warn("Invalid settings table received!")
 	end
 end)
 
